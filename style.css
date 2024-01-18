@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(6, 7, 93);
+}
+.start{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 95px;
+}
+.main{
+    font-size: 25px;
+    color: rgba(254, 246, 246, 0.946);
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+.grid-container{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: wheat;
+    /* background-color: wheat; */
+    width: 80vw;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 5px;
+    grid-gap: 7px;
+}
+.items{
+    background-color: black;
+    color: white;
+}
+.item1{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    background-color: rgba(5, 157, 157, 0.895);
+    text-align: center;
+    position: relative;
+}
+.fa-envelope{
+    position: absolute;
+    top: 25px;
+    left: 90px;
+}
+.item1 p{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.item2{
+    grid-column: 5/9;
+    grid-row: 1/3;
+    background-color: rgba(76, 15, 119, 0.99);
+    position: relative;
+}
+.para1{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.fa-keyboard{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 20px;
+}
+.para2{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 60px;
+}
+.tuesday{
+    position: absolute;
+    top: 80px;
+    right: 25px;
+    font-size: 15px;
+}
+.item3{
+    grid-row: 1/3;
+    grid-column: 9/11; 
+    background-image: url(https://img.freepik.com/free-photo/3d-earth-planet-shape_23-2151134273.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+}
+.item5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193, 137, 9);
+    color: white;
+}
+.item6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+}
+.item7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 0, 128, 0.674);
+    color: white;
+}
+.item8{
+    position: relative;
+    grid-column: 1/5;
+    grid-row: 3/5;   
+    grid-row: 3/5;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://img.freepik.com/free-photo/close-up-kitten-surrounded-by-flowers_23-2150782327.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+    display: flex;
+    justify-content: end;
+}
+.fa-user{
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.flex{
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: white;
+    width: 48%;
+    height: 49%;
+    margin: 1px;
+    display: flex;
+    justify-content: end;
+}
+.box1{
+    background-image: url(https://img.freepik.com/free-photo/young-entrepreneur-reading-newspaper-cafe_158595-3742.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box2{
+    background-image: url(https://img.freepik.com/premium-psd/preschooler-boy-curly-hair-nordic-ethnicity-dressed-actor-attire-poses-gaze-glasses-style-3d-cartoon_967868-207.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box3{
+    background-image: url(https://img.freepik.com/free-vector/illustration-light-bulb-icon_53876-43730.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box4{
+    background-image: url(https://img.freepik.com/free-photo/skyscapers-office-illustration_1409-6127.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item9{
+    grid-column: 5/9;
+    grid-row: 3/7;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://img.freepik.com/premium-photo/sunset-time-thailand-mountain_44953-105.jpg?w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.deg68{
+position: absolute;
+top: 10px;
+left: 10px;
+font-size: 40px;
+}
+.item9-para1{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size: 20px;
+    font-family: serif;
+}
+.item9-para2{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    font-size: 11px;
+}
+.item9-para3{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    font-size: 11px;
+}
+.weather{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+}
+.item10{
+    grid-column: 9/11;
+    grid-row: 3/5;
+    background-color: rgb(7, 61, 155);
+    position: relative;
+}
+.fa-edge-legacy{
+    position: absolute;
+    top: 25px;
+    left: 38px;
+}
+.intenet{
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.item11{
+    grid-column: 11/13;
+    grid-row: 3/5;
+    background-color: orangered;
+    position: relative;
+}
+.fa-book{
+position: absolute;
+top: 30px;
+left: 70px;
+font-size: 40px;
+}
+.item11 p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+}
+.item12{
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 5/7;
+    background-image: url(https://img.freepik.com/premium-photo/flat-stone-podium-magical-forest-3d-illustration-empty-round-stand-background-natural-stage-cosmetic-product-display-minimal-design_204216-720.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item12 p{
+ position: absolute;
+ bottom: 5px;
+ left: 20px;
+ font-size: 15px;
+}
+.item13{
+    grid-row: 5/7;
+    grid-column: 3/5;
+    background-color: rgb(7, 61, 155);
+    position: relative;
+}
+.fa-cloudflare{
+position: absolute;
+top: 30px;
+left: 35px;
+font-size: 50px;
+}
+.item13 p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 13px;
+}
+.item14{
+    grid-column: 9/13;
+    grid-row: 5/7;
+    position: relative;
+    background-color: green;
+}
+.fa-briefcase{
+position: absolute;
+top: 25px;
+left: 120px;
+font-size: 50px;
+}
+.item14 p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
